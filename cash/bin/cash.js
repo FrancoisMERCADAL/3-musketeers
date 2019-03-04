@@ -8,12 +8,17 @@ const currencies = require('../lib/currencies.json');
 
 const {API} = require('./constants');
 
+/**
+* Prints 'converting' in green while the got function is not over
+* When the got the got function is over, it prints the conversion of the typed value in different currencies (in USDolaar, Euro, Yen and Pound)
+*/
 const cash = async command => {
 	const {amount} = command;
 	const from = command.from.toUpperCase();
 	const to = command.to.filter(item => item !== from).map(item => item.toUpperCase());
 
 	console.log();
+
 	const loading = ora({
 		text: 'Converting...',
 		color: 'green',
