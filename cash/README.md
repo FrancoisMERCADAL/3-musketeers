@@ -58,4 +58,4 @@ Please check your internet connection!"
 ```
 you have a problem with your Internet connection
 
-[![VIDEO HERE](https://timedotcom.files.wordpress.com/2018/01/money-love-relationships.jpg)](https://www.youtube.com/watch?v=eD2ZGW1NGJo)
+[![VIDEO HERE](https://i.ibb.co/86xvhcW/Capture-du-2019-03-04-11-09-24.png)](https://www.youtube.com/watch?v=eD2ZGW1NGJo)
