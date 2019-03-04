@@ -6,18 +6,18 @@
 
 # Install modules
 Go to the cash folder and type :
-```sh
+``sh
 npm install
 ```
 
 # How to use the app :
 enter the command :
-``javascript
+``sh
 node index.js "value" "start currency" "convert currency 1" "convert currency 2" ... "convert currency N"
 ```
 
 if you just enter :
-  ``javascript
+  ``sh
   node index.js
   ```
   the program will convert 1 USDollar to EURO, Yen and Pound
@@ -27,33 +27,33 @@ if you just enter :
   ```
   the program willconvert the value from USDollar to EURO, Yen and Pound
 
-  ``javascript
+  ``sh
   node index.js "value" "start currency"
   ```
   the program will convert the value from the start currency to basic currencies (USDollar, Euro, Yen and Pound)
 
-  ``javascript
+  ``sh
   node index.js "start currency" "convert currency 1" "convert currency 2" ... "convert currency N"
   ```
   the program will convert 1 amount from the start currency to the defined currencies
 
-  ``javascript
+  ``sh
   node index.js "value" "start currency" "convert currency 1" "convert currency 2" ... "convert currency N"
   ```
   the program will convert the value from the start currency to the defined currencies
 
 # Error messages you can get
-``javascript
+``sh
 ‼ The "a currency name" currency not found
 ```
 you typed a wrong currency name
 
-``javascript
+``sh
 "Internal server error"
 ```
 A problem occured
 
-``javascript
+``sh
 Please check your internet connection!"
 ```
 you have a problem with your Internet connection
